@@ -13,6 +13,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void showListOfCities(){
-        
+        // TODO: Add list of cities
     }
 }
