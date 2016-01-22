@@ -6,5 +6,6 @@ package com.raremile.suraj.weatherapp;
 public class AllConstants {
     public final static String apiKey = "fdc31890c14fa2c726ae5bb140ba6164";
     public final static String cityListPath = "/Users/suraj/AndroidStudioProjects/WeatherAppNew/WeatherApp/app/src/main/res/city.list.json";
-    public final static String baseApiCallURL = "http://api.openweathermap.org/data/2.5/weather?q=";
+    public final static String baseApiCallURLCurrent = "http://api.openweathermap.org/data/2.5/weather?q=";
+    public final static String baseApiCallURLForecast = "http://api.openweathermap.org/data/2.5/forecast?q=";
 }

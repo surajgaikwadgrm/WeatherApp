@@ -21,9 +21,16 @@
                 android:id="@+id/tVDate"
                 android:layout_marginLeft="18dp"
                 android:layout_marginTop="10dp"
-                android:layout_marginBottom="16dp"
                 android:textColor="@android:color/black"
                 android:text="Date" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tVTime"
+                android:layout_marginLeft="18dp"
+
+                android:textColor="@android:color/black"
+                android:text="Time" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -51,7 +58,8 @@
                 android:id="@+id/tVMaxTemp"
                 android:layout_marginLeft="18dp"
                 android:layout_marginTop="5dp"
-                android:textColor="@android:color/black" />
+                android:textColor="@android:color/black"
+                android:layout_marginBottom="5dp" />
         </LinearLayout>
 
         <LinearLayout
@@ -72,7 +80,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/tVHumidityValue"
-                android:layout_marginTop="5dp"
+                android:layout_marginTop="8dp"
                 android:layout_marginLeft="18dp"
                 android:textColor="@android:color/black" />
 
